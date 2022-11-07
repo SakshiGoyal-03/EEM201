@@ -6,7 +6,7 @@ int main()
     printf("Enter Number: ");
     scanf("%d",&num);
     int temp=num;
-    while(num>0)
+    while(num!=0)
     {
 
         rem=num%10;
